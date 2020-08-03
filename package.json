@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "học node js",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcmutemimi/nodejs_blogf8.git"
+  },
+  "keywords": [
+    "nodejs",
+    "f8"
+  ],
+  "author": "miqng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcmutemimi/nodejs_blogf8/issues"
+  },
+  "homepage": "https://github.com/hcmutemimi/nodejs_blogf8#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
