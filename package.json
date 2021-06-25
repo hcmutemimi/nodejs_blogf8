@@ -4,6 +4,7 @@
   "description": "học node js",
   "main": "src/index.js",
   "scripts": {
+    "beauty": "prettier --single-quote --trailing-comma all --write 'src/**/*.js,json,scss'",
     "start": "nodemon --inspect src/index.js",
     "watch": "node-sass -w src/resources/scss/ -o src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,11 +25,18 @@
   "homepage": "https://github.com/hcmutemimi/nodejs_blogf8#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.1.0"
+    "express-handlebars": "^5.1.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.2",
+    "mongoose-delete": "^0.5.2",
+    "mongoose-slug-generator": "^1.0.4"
   },
   "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.13",
     "morgan": "^1.10.0",
     "node-sass": "^4.14.1",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.1"
   }
 }
