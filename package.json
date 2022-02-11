@@ -25,7 +25,7 @@
   "homepage": "https://github.com/hcmutemimi/nodejs_blogf8#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.1.0",
+    "express-handlebars": "^5.3.1",
     "method-override": "^3.0.0",
     "mongoose": "^5.10.2",
     "mongoose-delete": "^0.5.2",
